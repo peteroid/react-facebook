@@ -76,7 +76,7 @@ export default class Facebook {
 
     const js = document.createElement('script');
     js.id = 'facebook-jssdk';
-    js.src = `//connect.facebook.net/${this._language}/sdk.js`;
+    js.src = `//connect.facebook.com/${this._language}/sdk.js`;
 
     fjs.parentNode.insertBefore(js, fjs);
   }
